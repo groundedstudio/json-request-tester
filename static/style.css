@@ -1,0 +1,29 @@
+html {
+    font-family: "Helvetica";
+}
+
+.container {
+    max-width: 500px;
+    max-height: 750px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.input {
+    display: block;
+    margin: 5px;
+}
+
+#json-input {
+    width: 95%;
+    height: 25%;
+}
+
+#url-input {
+    width: 95%;
+}
+
+#response {
+    width: 95%;
+    height: 35%;
+}

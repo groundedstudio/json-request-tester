@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSON Request Tester</title>
+    <link rel="stylesheet" href="{{ static_url("style.css") }}">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON Request Tester</h1>
+        <h3>Input Values</h3>
+        <form id="json-input-form" method="post">
+            <input id="url-input" name="url" type="text" class="input" value="{{ original_url }}">
+            <textarea id="json-input" name="json" class="input" >{{ original_json }}</textarea>
+            <select id="method-select" name="method-select" class="input">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+            </select>
+            <input type="submit" class="input" value="GO">
+        </form>
+    </div>
+    <div class="container">
+        <h3>Response</h3>
+        <textarea id="response">{{ response }}</textarea>
+        <p>
+            {{ errors }}
+        </p>
+    </div>
+</body>
+</html>
