@@ -3,7 +3,7 @@ html {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 750px;
     max-height: 750px;
     margin: 0 auto;
     padding: 10px;
@@ -25,5 +25,5 @@ html {
 
 #response {
     width: 95%;
-    height: 35%;
+    height: 30%;
 }
